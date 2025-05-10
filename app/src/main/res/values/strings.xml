@@ -8,4 +8,7 @@
     <string name="next">next</string>
     <string name="truebutton">trueButton</string>
     <string name="Next">next</string>
+    <string name="quiz_screen">Quiz Screen</string>
+    <string name="finish_quiz">Finish Quiz</string>
+    <string name="falseButton">falseButton</string>
 </resources>
