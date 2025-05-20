@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Theme.FlashcardApp" parent="Theme.AppCompat.Light.NoActionBar" >
 
-    <style name="Theme.FlashcardApp" parent="android:Theme.Material.Light.NoActionBar" />
+        <item name="colorPrimary">#6200EE</item>
+         <item name="colorPrimaryDark">#3700b3</item>
+          <item name="colorAccent">#03DAC5</item>
+    </style>
 </resources>

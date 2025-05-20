@@ -1,56 +1,52 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scoreLayout"
     android:orientation="vertical"
-    android:gravity="center"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FAFAFA">
 
-    <!-- TextView to display the question -->
+    <!-- Display the user's score -->
     <TextView
-        android:id="@+id/questionTextView"
+        android:id="@+id/scoreTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question_will_appear"
-        android:textSize="24sp"
+        android:textSize="28sp"
         android:textStyle="bold"
         android:textColor="#000000"
-        android:textAlignment="center"
-        android:layout_marginBottom="32dp" />
+        android:layout_marginBottom="24dp" />
 
-    <!-- "True button for user to answer True -->
-    <Button
-        android:id="@+id/trueButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/truebutton"
-        android:layout_marginBottom="24dp"
-        tools:ignore="VisualLintButtonSize" />
-
-    <!-- False button for user to answer False -->
-    <Button
-        android:id="@+id/falseButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/falsebutton"
-        android:layout_marginBottom="24dp"
-        tools:ignore="VisualLintButtonSize" />
-
-    <!-- TextView to show the answer entered by user was correct or incorrect -->
+    <!-- Displays personalized feedback like "Great Job! -->
     <TextView
         android:id="@+id/feedbackTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="18sp"
-        android:textColor="#333333"
-        android:layout_marginBottom="32dp"  />
+        android:layout_marginBottom="40dp"
+        android:background="#CDDC39"
+        android:text="@string/feedbackHere"
+        android:textColor="#444444"
+        android:textSize="20sp" />
 
-    <!-- "Next" button to move  to the next question -->
+    <!-- Button to restart the flashcard quiz -->
     <Button
-        android:id="@+id/nextButton"
+        android:id="@+id/reviewButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Next"
+        android:allowUndo="true"
+        android:backgroundTint="#CDDC39"
+        android:text="@string/Exit"
         tools:ignore="VisualLintButtonSize" />
+
+    <!-- Button to exit the app -->
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#CDDC39"
+        android:text="@string/reviewAgain" />
+
 </LinearLayout>

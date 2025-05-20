@@ -4,11 +4,13 @@
     <string name="start_quiz">Start Quiz</string>
     <string name="question_will_appear">question_will_appear</string>
     <string name="trueButton">true button</string>
-    <string name="falsebutton">falseButton</string>
-    <string name="next">next</string>
-    <string name="truebutton">trueButton</string>
     <string name="Next">next</string>
     <string name="quiz_screen">Quiz Screen</string>
     <string name="finish_quiz">Finish Quiz</string>
     <string name="falseButton">falseButton</string>
+    <string name="feedback_here">feedback here</string>
+    <string name="Exit">exit</string>
+    <string name="feedbackHere">feedback_here</string>
+    <string name="reviewAgain">review_again</string>
+
 </resources>
