@@ -2,7 +2,7 @@
     <string name="app_name">Flashcard-App</string>
     <string name="flashcard_application">Flashcard Application</string>
     <string name="start_quiz">Start Quiz</string>
-    <string name="question_will_appear">question_will_appear</string>
+    <string name="Question_will_appear">question_will_appear</string>
     <string name="trueButton">true button</string>
     <string name="Next">next</string>
     <string name="quiz_screen">Quiz Screen</string>
