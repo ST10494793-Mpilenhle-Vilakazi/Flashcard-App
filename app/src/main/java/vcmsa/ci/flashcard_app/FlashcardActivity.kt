@@ -3,6 +3,7 @@ package vcmsa.ci.flashcard_app
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -38,12 +39,15 @@ class FlashcardActivity : AppCompatActivity() {
 questionText.text = questions[currentQuestion]
 
     trueButton.setOnClickListener {
+        Log.d("FlashcardActivity", "True button clicked")
         checkAnswer(true, feedbackText, trueButton, falseButton)
     }
     falseButton.setOnClickListener {
+        Log.d("FlashcardActivity", "False button clicked")
         checkAnswer(false, feedbackText, trueButton, falseButton)
     }
     nextButton.setOnClickListener {
+        Log.d("FlashcardActivity", "Next button clicked")
         currentQuestion++
 
         if(currentQuestion < questions.size) {
@@ -59,6 +63,7 @@ questionText.text = questions[currentQuestion]
             intent.putExtra("SCORE", score)
             intent.putExtra("TOTAL", questions.size)
             startActivity(intent)
+            Log.d("FlashcardActivity", "Moving to ScoreActivity with score:$score")
             finish()
 
         }
