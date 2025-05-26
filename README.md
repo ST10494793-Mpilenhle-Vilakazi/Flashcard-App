@@ -15,3 +15,5 @@ https://github.com/ST10494793-Mpilenhle-Vilakazi/Flashcard-App/tree/master
 ##Youtube Demonstration
 https://youtu.be/wZq5hVHFf8s?si=fAQkP9rxnwplh2FS
 ##Screenshots
+https://github.com/ST10494793-Mpilenhle-Vilakazi/Flashcard-App/blob/master/Screenshot%202025-05-20%20014636.png
+
