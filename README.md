@@ -11,3 +11,7 @@ open in android studio
 Connect a virtual device
 Cluck **Run**
 ##Github   Res
+https://github.com/ST10494793-Mpilenhle-Vilakazi/Flashcard-App/tree/master
+##Youtube Demonstration
+https://youtu.be/wZq5hVHFf8s?si=fAQkP9rxnwplh2FS
+##Screenshots
