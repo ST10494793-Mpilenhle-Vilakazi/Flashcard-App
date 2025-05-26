@@ -11,14 +11,15 @@
     <!-- TextView to display the question -->
     <TextView
         android:id="@+id/questionTextView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="@string/Question_will_appear"
-        android:textAlignment="center"
-        android:textColor="#000000"
+        android:text="Sample Question"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_margin="16dp"/>
+
+
 
     <!-- "True button for user to answer True -->
     <Button

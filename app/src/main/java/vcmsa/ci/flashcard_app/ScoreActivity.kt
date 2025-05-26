@@ -1,7 +1,6 @@
 package vcmsa.ci.flashcard_app
 
 import android.annotation.SuppressLint
-import vcmsa.ci.flashcard_app.R
 import vcmsa.ci.flashcard_app.R.id.scoreTextView
 import android.os.Bundle
 import android.widget.TextView

@@ -25,6 +25,7 @@ class FlashcardActivity : AppCompatActivity() {
          false
      )
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
       super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_flashcard)
